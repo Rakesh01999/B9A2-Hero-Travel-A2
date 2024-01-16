@@ -1714,5 +1714,22 @@
     border-radius: 16px;
   }
 
-  
+  .why {
+    flex-direction: column;
+  }
+
+  .rectangle-parent4,
+  .rectangle-parent5,
+  .rectangle-parent6 {
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+  }
+
+  .footer-container{
+    flex-direction: column;
+  }
 }
